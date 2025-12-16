@@ -10,7 +10,7 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Set environment variable for build
-ENV NEXT_PUBLIC_API_URL=NEXT_PUBLIC_API_URL=http://34.230.75.25:5000/api
+ENV NEXT_PUBLIC_API_URL=http://34.230.75.25:5000/api
 
 RUN npm run build
 
