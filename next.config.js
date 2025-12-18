@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'standalone',
   env: {
-    NEXT_PUBLIC_API_URL: 'http://100.48.87.40:5000/api',
+    NEXT_PUBLIC_API_URL: 'http://100.25.119.23:5000/api',
   },
 }
 
